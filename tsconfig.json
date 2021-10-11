@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "baseUrl": "./src",
+    "paths": {
+      "components": ["components"],
+      "atoms": ["components/atoms"],
+      "molecules": ["components/molecules"],
+      "organisms": ["components/organisms"],
+      "utils": ["utils"],
+      "hooks": ["hooks"],
+      "contexts": ["contexts"],
+      "icons": ["icons"],
+      "types": ["generated/graphql.ts"]
+    }
+  },
+  "include": ["custom.d.ts", "next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+}
