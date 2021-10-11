@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Pre Styles for Local Development / HTML debugging */
+pre {
+  overflow-x: auto;
+  width: 100%;
+  white-space: pre-wrap;
+  font-family: monospace;
+}
+pre {
+  background: #eee;
+  padding: 10px;
+  font-size: 10pt;
+  line-height: 1.2;
+  color: #000;
+}
+
+:root {
+  --primaryPrimaryBlue: 0, 40, 85;
+  --neutralsLight100: 209, 204, 189;
+  --neutralsLight90: 214, 209, 196;
+  --neutralsLight80: 222, 218, 208;
+  --neutralsLight70: 223, 219, 209;
+  --neutralsLight60: 227, 224, 215;
+  --neutralsLight50: 232, 229, 222;
+  --neutralsLight40: 237, 235, 229;
+  --neutralsLight30: 241, 240, 235;
+  --neutralsLight20: 246, 245, 242;
+  --neutralsLight10: 250, 250, 248;
+  --neutralsDark70: 98, 108, 118;
+  --neutralsDark60: 118, 129, 140;
+  --neutralsDark50: 141, 150, 159;
+  --neutralsDark40: 164, 171, 178;
+  --neutralsDark30: 186, 192, 198;
+  --neutralsDark20: 221, 225, 230;
+  --neutralsDark10: 239, 241, 242;
+  --neutralsLightWhite: 255, 255, 255;
+  --tertiaryAqua100: 113, 219, 212;
+  --tertiaryAqua60: 170, 233, 229;
+  --tertiaryAqua40: 198, 241, 238;
+  --tertiaryAqua20: 227, 248, 246;
+  --secondaryTeal80: 0, 188, 205;
+  --secondaryTeal400: 0, 83, 90;
+  --tertiaryClay100: 225, 187, 180;
+  --tertiaryClay20: 249, 241, 240;
+  --tertiaryClay60: 237, 214, 210;
+  --tertiaryClay40: 243, 228, 225;
+  --secondaryTerracotta80: 209, 146, 136;
+  --secondaryTerracotta: 194, 110, 96;
+  --secondaryTeal: 0, 118, 129;
+  --tertiaryAqua100: 113, 219, 212;
+  --neutralsDark100: 41, 45, 49;
+  --neutralsDark90: 60, 66, 72;
+  --neutralsDark80: 79, 87, 95;
+  --tertiaryYellow60: 242, 242, 193;
+  --tertiaryYellow40: 246, 246, 213;
+  --tertiaryYellow100: 233, 233, 151;
+  --secondaryGold: 172, 159, 60;
+  --secondaryGold80: 197, 185, 90;
+  --tertiaryYellow20: 251, 251, 234;
+  --neutralsDarkBlack: 0, 0, 0;
+  --tertiaryMint100: 162, 228, 184;
+  --tertiaryMint60: 199, 239, 212;
+  --tertiaryMint40: 218, 244, 227;
+  --tertiaryMint20: 236, 250, 241;
+  --secondaryGreen: 0, 173, 148;
+  --secondaryGreen: 0, 89, 76;
+}
